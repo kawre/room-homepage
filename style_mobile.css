@@ -30,9 +30,65 @@ body {
 .header-mobile {
   position: absolute;
   display: flex;
-  margin-left: 6%;
-  padding-top: 50px;
-  gap: 110px;
+  margin: 50px 0 0;
+  padding: 0 6%;
+  width: 100%;
+  justify-content: center;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+}
+.h-mobile-ham {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 6%;
+}
+
+.mobile-nav-bar {
+  background: white;
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+  display: none;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 6%;
+}
+
+.mobile-nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.mobile-nav-links a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.mobile-nav-bg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  opacity: 0.6;
+}
+
+.nav-close {
+  height: 16px;
+}
+
+.close-nav {
+  border: none;
+  background: none;
 }
 
 /* article top */
@@ -85,8 +141,15 @@ body {
 
 .a-b-text {
   padding: 0 6%;
+  gap: 15px;
 }
 
 .a-b-text p {
   font-size: 12.4px;
+}
+
+/* hide&show */
+
+.show-nav {
+  display: block;
 }
