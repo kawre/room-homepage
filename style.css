@@ -36,6 +36,10 @@ main {
   display: none;
 }
 
+.mobile {
+  display: none;
+}
+
 /* desktop */
 
 /* header */
