@@ -1,0 +1,13 @@
+.article-bottom {
+  grid-template-columns: 1fr 38% calc(42% - 160px);
+}
+
+.article-top {
+  grid-template-columns: 58% 42%;
+}
+
+.img-right,
+.img-left {
+  width: 100%;
+  object-fit: cover;
+}

@@ -198,8 +198,18 @@ main {
 .a-img-right,
 .a-img-left {
   overflow: hidden;
+  object-fit: cover;
 }
 
 .mobile {
   display: none;
+}
+
+.article-top-img img {
+  height: 100%;
+}
+
+.img-right,
+.img-left {
+  height: 100%;
 }
