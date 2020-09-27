@@ -71,12 +71,12 @@
       <article class="article-top">
         <div class="article-top-img">
           <img
-            class="desktop"
+            class="slider-img-d desktop"
             src="/images/desktop-image-hero-1.jpg"
             alt="hero"
           />
           <img
-            class="mobile"
+            class="slider-img-m mobile"
             src="/images/mobile-image-hero-1.jpg"
             alt="hero"
           />
@@ -94,11 +94,19 @@
             SHOP NOW
             <img src="/images/icon-arrow.svg" alt="arrow" />
           </button>
-          <div class="slide-btns">
-            <button class="slide-left">
+          <div class="slide-btns desktop">
+            <button class="slide-left" onclick="left()">
               <img src="/images/icon-angle-left.svg" alt="left" />
             </button>
-            <button class="slide-right">
+            <button class="slide-right" onclick="right()"">
+              <img src="/images/icon-angle-right.svg" alt="right" />
+            </button>
+          </div>
+          <div class="slide-btns mobile">
+            <button class="slide-left" onclick="leftM()">
+              <img src="/images/icon-angle-left.svg" alt="left" />
+            </button>
+            <button class="slide-right" onclick="rightM()"">
               <img src="/images/icon-angle-right.svg" alt="right" />
             </button>
           </div>

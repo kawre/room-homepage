@@ -116,6 +116,7 @@ body {
   top: -55px;
   right: 0;
   left: unset;
+  display: flex;
 }
 
 .article-top-content h1 {

@@ -36,10 +36,6 @@ main {
   display: none;
 }
 
-.mobile {
-  display: none;
-}
-
 /* desktop */
 
 /* header */
@@ -202,4 +198,8 @@ main {
 .a-img-right,
 .a-img-left {
   overflow: hidden;
+}
+
+.mobile {
+  display: none;
 }
