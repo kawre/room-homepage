@@ -96,7 +96,11 @@ body {
 .article-top {
   display: grid;
   grid-template-columns: none;
-  grid-template-rows: 360px 410px;
+  grid-template-rows: auto 410px;
+}
+
+.article-top-img {
+  max-height: 60vh;
 }
 
 .article-top-content {
@@ -105,8 +109,6 @@ body {
 
 .article-top-img img {
   width: 100%;
-  height: 360px;
-  object-fit: none;
 }
 
 .slide-btns {
@@ -137,7 +139,7 @@ body {
 
 .article-bottom {
   grid-template-columns: none;
-  grid-template-rows: 240px 300px 240px;
+  grid-template-rows: auto 300px auto;
 }
 
 .a-b-text {
@@ -147,6 +149,16 @@ body {
 
 .a-b-text p {
   font-size: 12.4px;
+}
+
+.a-img-right,
+.a-img-left {
+  max-height: 50vh;
+}
+
+.img-right,
+.img-left {
+  width: 100%;
 }
 
 /* hide&show */
